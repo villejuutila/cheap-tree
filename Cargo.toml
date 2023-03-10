@@ -1,7 +1,6 @@
 [package]
 name = "cheap-tree"
-author = "Ville Juutila"
-about = "Cheap copy of Tree CLI tool."
+description = "Cheap copy of Tree CLI tool."
 version = "1.0.0"
 edition = "2021"
 

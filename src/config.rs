@@ -1,7 +1,10 @@
 use clap::Parser;
 
 #[derive(Parser, Debug)]
-#[command(author, version, about)]
+#[command(
+  version = env!("CARGO_PKG_VERSION"),
+  about = env!("CARGO_PKG_DESCRIPTION")
+)]
 pub struct Args {
   /// Directory to build tree from.
   pub dir: Option<String>,
